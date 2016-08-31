@@ -1,4 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
   An empty repository will be created. 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-  Staging area is the area before repository. You can add files(not necessarily all the files) to staging area to commit them later in the repository 
+  Staging area is the area before repository. You can add files(not necessarily all the files) to staging area to commit them later in the repository
+  How can you use the staging area to make sure you have one commit per logical change?
+  "git diff --staged" shows the difference between stage area and recent commit
+   "git reset --hard" discard any changes in the working directory or stage area
+ 
